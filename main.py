@@ -78,14 +78,16 @@ def update_readme(success_list):
     tz_vn = timezone(timedelta(hours=7))
     now = datetime.now(tz_vn).strftime("%H:%M %d/%m")
     
-    # --- CẤU TRÚC BẢNG CĂN GIỮA ---
-    # Sử dụng :---: để căn giữa nội dung
+    # --- CẤU HÌNH BẢNG ---
+    # Cột 1, 2: :---: (Giữa)
+    # Cột 3 (ISP): :--- (Trái) <--- ĐÃ SỬA
+    # Các cột còn lại: :---: (Giữa)
     
     md_content = f"""# 🇯🇵 VPN Gate List (JP)
 *Updated: {now} (GMT+7) | Servers: {len(success_list)}*
 
-| Hostname | IP | ISP | Ping (ms) | Speed (Mbps) | Country | Link |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Hostname | IP | ISP Name | Ping (ms) | Speed (Mbps) | Country | Link |
+|:---:|:---:|:---|:---:|:---:|:---:|:---:|
 """
     
     for item in success_list:
@@ -98,8 +100,10 @@ def update_readme(success_list):
             
         speed_val = f"{item['speed']:.1f}"
         
-        # Bỏ in đậm cột ISP
-        row = f"| {item['hostname']} | {item['ip']} | {item['isp']} | {ping_val} | {speed_val} | Japan | [📥]({relative_link}) |\n"
+        # Sửa cột ISP: ** (đậm) + <small> (nhỏ)
+        isp_display = f"**<small>{item['isp']}</small>**"
+        
+        row = f"| {item['hostname']} | {item['ip']} | {isp_display} | {ping_val} | {speed_val} | Japan | [📥]({relative_link}) |\n"
         md_content += row
     
     md_content += "\n*Auto-updated by GitHub Actions*"
