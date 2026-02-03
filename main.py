@@ -18,11 +18,24 @@ def get_servers():
     print(f"[*] Đang tải danh sách server...")
     try:
         res = requests.get(VPN_API, timeout=20)
-        # Lọc bỏ dòng comment * và dòng trống
-        raw = [line for line in res.text.splitlines() if not line.startswith('*') and line.strip()]
         
-        # Xử lý header
-        if "HostName" not in raw[0]:
+        # --- ĐOẠN CODE ĐÃ ĐƯỢC FIX ---
+        raw = []
+        for line in res.text.splitlines():
+            line = line.strip()
+            # Bỏ qua dòng comment (*) và dòng trống
+            if line.startswith('*') or not line:
+                continue
+            
+            # Fix lỗi quan trọng: API trả về "#HostName", cần xóa dấu # đi
+            if line.startswith('#HostName'):
+                line = line.replace('#HostName', 'HostName')
+            
+            raw.append(line)
+        # -----------------------------
+
+        # Kiểm tra lại lần cuối cho chắc chắn
+        if raw and "HostName" not in raw[0]:
             header = "HostName,IP,Score,Ping,Speed,CountryLong,CountryShort,NumVpnSessions,Uptime,TotalUsers,TotalTraffic,LogType,Operator,Message,OpenVPN_ConfigData_Base64"
             raw.insert(0, header)
             
@@ -33,9 +46,7 @@ def get_servers():
 
 def get_isp(ip):
     try:
-        # Timeout ngắn để không treo tool quá lâu
         res = requests.get(ISP_API.format(ip), timeout=3).json()
-        # Xóa khoảng trắng để hiển thị gọn (VD: SoftBank Corp -> SoftBankCorp)
         return res.get('isp', 'Unknown').replace(" ", "")
     except:
         return "Unknown"
@@ -63,12 +74,12 @@ def save_ovpn(server):
         with open(path, 'w', encoding='utf-8') as f:
             f.write(final_data)
         
-        # Trả về dữ liệu đầy đủ để ghi vào Readme (Đã thêm 'isp')
+        # Trả về dữ liệu ghi vào Readme
         return {
             "filename": filename,
-            "hostname": server.get('HostName', '-'),
+            "hostname": server.get('HostName', '-'), # Giờ sẽ lấy được tên đúng
             "ip": ip,
-            "isp": isp,  # <--- Dữ liệu mới
+            "isp": isp,
             "ping": server.get('Ping', '-'),
             "speed": speed,
             "country": "Japan"
@@ -77,11 +88,9 @@ def save_ovpn(server):
         return None
 
 def update_readme(success_list):
-    # Lấy giờ Việt Nam (UTC+7)
     tz_vn = timezone(timedelta(hours=7))
     now = datetime.now(tz_vn).strftime("%Y-%m-%d %H:%M:%S")
     
-    # Tạo Header bảng có thêm cột ISP
     md_content = f"""# VPN Gate List - Japan (JP)
 **Last Updated:** {now} (GMT+7)
 **Total Servers:** {len(success_list)}
@@ -91,10 +100,7 @@ def update_readme(success_list):
 """
     
     for item in success_list:
-        # Link tải file
         relative_link = f"./{SAVE_DIR}/{item['filename']}"
-        
-        # Thêm cột ISP vào dòng dữ liệu
         row = f"| {item['hostname']} | {item['ip']} | **{item['isp']}** | {item['ping']} ms | {item['speed']:.2f} Mbps | {item['country']} | [Download]({relative_link}) |\n"
         md_content += row
     
@@ -111,7 +117,6 @@ def main():
     
     servers = get_servers()
     
-    # Lọc server Nhật (JP) và sắp xếp theo tốc độ
     jp_list = sorted([s for s in servers if s['CountryShort'] == 'JP'], 
                      key=lambda x: int(x['Speed']), reverse=True)
     
@@ -119,12 +124,12 @@ def main():
 
     success_items = []
     
-    # Giới hạn 100 server tốt nhất để tránh timeout
+    # Lấy 100 server
     for s in jp_list[:100]: 
         result = save_ovpn(s)
         if result:
             success_items.append(result)
-        time.sleep(1) # Delay nhẹ
+        time.sleep(1)
 
     update_readme(success_items)
     print(f"[*] Hoàn tất! Đã lưu {len(success_items)} file.")
