@@ -2,8 +2,8 @@ name: Auto Update VPN Gate
 
 on:
   schedule:
-    - cron: '*/10 * * * *' # <--- SỬA DÒNG NÀY (Chạy mỗi 10 phút)
-  workflow_dispatch:
+    - cron: '*/10 * * * *' # <--- SỬA DÒNG NÀY (Chạy vào phút thứ 0 của mỗi giờ)
+  workflow_dispatch:      # Giữ lại dòng này để bạn vẫn có thể bấm nút chạy thủ công nếu muốn
 
 permissions:
   contents: write
@@ -33,6 +33,6 @@ jobs:
           git config --global user.name "VPN Auto Bot"
           git config --global user.email "bot@github.com"
           git add .
-          # Thêm dòng này để tránh lỗi nếu không có gì thay đổi
-          git diff-index --quiet HEAD || git commit -m "Update VPN List: $(date)"
+          # Chỉ commit nếu có thay đổi để tránh lỗi
+          git diff-index --quiet HEAD || git commit -m "Hourly VPN Update: $(date)"
           git push
