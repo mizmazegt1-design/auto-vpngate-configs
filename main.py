@@ -79,15 +79,15 @@ def update_readme(success_list):
     now = datetime.now(tz_vn).strftime("%H:%M %d/%m")
     
     # --- CẤU HÌNH BẢNG ---
-    # Cột 1, 2: :---: (Giữa)
-    # Cột 3 (ISP): :--- (Trái) <--- ĐÃ SỬA
-    # Các cột còn lại: :---: (Giữa)
+    # Đã xóa cột Country
+    # ISP Name: Căn trái (:---|)
+    # Các cột khác: Căn giữa (:---:)
     
     md_content = f"""# 🇯🇵 VPN Gate List (JP)
 *Updated: {now} (GMT+7) | Servers: {len(success_list)}*
 
-| Hostname | IP | ISP Name | Ping (ms) | Speed (Mbps) | Country | Link |
-|:---:|:---:|:---|:---:|:---:|:---:|:---:|
+| Hostname | IP | ISP Name | Ping (ms) | Speed (Mbps) | Download |
+|:---:|:---:|:---|:---:|:---:|:---:|
 """
     
     for item in success_list:
@@ -100,10 +100,10 @@ def update_readme(success_list):
             
         speed_val = f"{item['speed']:.1f}"
         
-        # Sửa cột ISP: ** (đậm) + <small> (nhỏ)
+        # Format ISP: Chữ nhỏ + In đậm
         isp_display = f"**<small>{item['isp']}</small>**"
         
-        row = f"| {item['hostname']} | {item['ip']} | {isp_display} | {ping_val} | {speed_val} | Japan | [📥]({relative_link}) |\n"
+        row = f"| {item['hostname']} | {item['ip']} | {isp_display} | {ping_val} | {speed_val} | [📥]({relative_link}) |\n"
         md_content += row
     
     md_content += "\n*Auto-updated by GitHub Actions*"
@@ -123,7 +123,6 @@ def main():
     print(f"[*] Tìm thấy {len(jp_list)} server JP. Bắt đầu xử lý...")
 
     success_items = []
-    # Lấy 100 server
     for s in jp_list[:100]: 
         result = save_ovpn(s)
         if result: success_items.append(result)
