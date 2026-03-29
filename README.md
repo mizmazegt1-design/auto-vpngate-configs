@@ -1,5 +1,5 @@
 # 🇯🇵 VPN Gate List (JP)
-*Updated: 02:46 30/03 (GMT+7) | Servers: 57*
+*Updated: 03:17 30/03 (GMT+7) | Servers: 57*
 
 | Hostname | IP | ISP Name | Ping (ms) | Speed (Mbps) | Download |
 |:---:|:---:|:---|:---:|:---:|:---:|
@@ -9,7 +9,7 @@
 | vpn940475528 | 124.143.92.213 | **<small>JCOMCo.,Ltd.</small>** | 8 | 908.9 | [📥](./ovpn_files/JP_JCOMCo.,Ltd._124.143.92.213_908.9Mbps.ovpn) |
 | vpn549383918 | 126.65.209.87 | **<small>SoftBankCorp.</small>** | 3 | 902.1 | [📥](./ovpn_files/JP_SoftBankCorp._126.65.209.87_902.1Mbps.ovpn) |
 | vpn739863098 | 101.111.161.173 | **<small>itscommunicationsInc.</small>** | 3 | 900.4 | [📥](./ovpn_files/JP_itscommunicationsInc._101.111.161.173_900.4Mbps.ovpn) |
-| vpn169804096 | 126.55.249.223 | **<small>SoftBankCorp.</small>** | 6 | 818.9 | [📥](./ovpn_files/JP_SoftBankCorp._126.55.249.223_818.9Mbps.ovpn) |
+| vpn169804096 | 126.55.249.223 | **<small>SoftBankCorp.</small>** | 6 | 878.6 | [📥](./ovpn_files/JP_SoftBankCorp._126.55.249.223_878.6Mbps.ovpn) |
 | vpn617101521 | 14.132.25.198 | **<small>ChubuTelecommunicationsCompany,Inc.</small>** | 4 | 788.4 | [📥](./ovpn_files/JP_ChubuTelecommunicationsCompany,Inc._14.132.25.198_788.4Mbps.ovpn) |
 | vpn365978237 | 218.226.10.235 | **<small>SuzukaCableCo.,Ltd</small>** | 4 | 775.1 | [📥](./ovpn_files/JP_SuzukaCableCo.,Ltd_218.226.10.235_775.1Mbps.ovpn) |
 | vpn356607128 | 180.197.227.159 | **<small>ChubuTelecommunicationsCompany,Inc.</small>** | 7 | 753.4 | [📥](./ovpn_files/JP_ChubuTelecommunicationsCompany,Inc._180.197.227.159_753.4Mbps.ovpn) |
@@ -51,10 +51,10 @@
 | vpn683539447 | 61.25.149.161 | **<small>Unknown</small>** | 14 | 99.4 | [📥](./ovpn_files/JP_Unknown_61.25.149.161_99.4Mbps.ovpn) |
 | vpn220256558 | 218.41.216.13 | **<small>Unknown</small>** | 2 | 97.4 | [📥](./ovpn_files/JP_Unknown_218.41.216.13_97.4Mbps.ovpn) |
 | vpn302093584 | 126.117.72.236 | **<small>Unknown</small>** | 3 | 92.3 | [📥](./ovpn_files/JP_Unknown_126.117.72.236_92.3Mbps.ovpn) |
-| vpn686706955 | 180.92.24.7 | **<small>Unknown</small>** | 15 | 91.0 | [📥](./ovpn_files/JP_Unknown_180.92.24.7_91.0Mbps.ovpn) |
 | vpn803707006 | 126.121.149.77 | **<small>Unknown</small>** | 8 | 90.4 | [📥](./ovpn_files/JP_Unknown_126.121.149.77_90.4Mbps.ovpn) |
 | vpn794770365 | 110.67.166.58 | **<small>Unknown</small>** | 17 | 87.5 | [📥](./ovpn_files/JP_Unknown_110.67.166.58_87.5Mbps.ovpn) |
 | vpn810318235 | 124.209.182.165 | **<small>Unknown</small>** | 10 | 84.3 | [📥](./ovpn_files/JP_Unknown_124.209.182.165_84.3Mbps.ovpn) |
+| vpn686706955 | 180.92.24.7 | **<small>Unknown</small>** | 15 | 79.4 | [📥](./ovpn_files/JP_Unknown_180.92.24.7_79.4Mbps.ovpn) |
 | vpn708608193 | 60.153.177.130 | **<small>Unknown</small>** | 13 | 72.0 | [📥](./ovpn_files/JP_Unknown_60.153.177.130_72.0Mbps.ovpn) |
 | vpn852663336 | 126.141.12.236 | **<small>Unknown</small>** | 4 | 66.4 | [📥](./ovpn_files/JP_Unknown_126.141.12.236_66.4Mbps.ovpn) |
 | vpn857992852 | 133.209.158.229 | **<small>Unknown</small>** | 5 | 64.8 | [📥](./ovpn_files/JP_Unknown_133.209.158.229_64.8Mbps.ovpn) |
