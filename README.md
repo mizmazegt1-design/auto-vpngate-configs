@@ -1,52 +1,55 @@
 # 🇯🇵 VPN Gate List (JP)
-*Updated: 05:45 22/10 (GMT+7) | Servers: 45*
+*Updated: 07:59 22/10 (GMT+7) | Servers: 48*
 
 | Hostname | IP | ISP Name | Ping (ms) | Speed (Mbps) | Download |
 |:---:|:---:|:---|:---:|:---:|:---:|
-| vpn906551013 | 138.64.81.235 | **<small>ASAHINet,Inc.</small>** | 3 | 2089.8 | [📥](./ovpn_files/JP_ASAHINet,Inc._138.64.81.235_2089.8Mbps.ovpn) |
-| public-vpn-183 | 219.100.37.161 | **<small>SoftEther</small>** | 27 | 1293.2 | [📥](./ovpn_files/JP_SoftEther_219.100.37.161_1293.2Mbps.ovpn) |
-| vpn491479594 | 221.45.42.147 | **<small>SoftBankCorp.</small>** | 6 | 944.8 | [📥](./ovpn_files/JP_SoftBankCorp._221.45.42.147_944.8Mbps.ovpn) |
-| vpn753191891 | 126.214.25.92 | **<small>SoftBankCorp.</small>** | 4 | 847.5 | [📥](./ovpn_files/JP_SoftBankCorp._126.214.25.92_847.5Mbps.ovpn) |
-| vpn951006845 | 27.95.186.122 | **<small>KddiCorporation</small>** | 3 | 846.7 | [📥](./ovpn_files/JP_KddiCorporation_27.95.186.122_846.7Mbps.ovpn) |
-| vpn665363301 | 126.214.226.73 | **<small>SoftBankCorp.</small>** | 9 | 753.4 | [📥](./ovpn_files/JP_SoftBankCorp._126.214.226.73_753.4Mbps.ovpn) |
-| vpn837693710 | 60.124.68.169 | **<small>SoftBankCorp.</small>** | 4 | 736.2 | [📥](./ovpn_files/JP_SoftBankCorp._60.124.68.169_736.2Mbps.ovpn) |
-| vpn526062445 | 60.143.120.123 | **<small>SoftBankCorp.</small>** | 4 | 543.7 | [📥](./ovpn_files/JP_SoftBankCorp._60.143.120.123_543.7Mbps.ovpn) |
+| public-vpn-81 | 219.100.37.28 | **<small>SoftEther</small>** | 8 | 1264.2 | [📥](./ovpn_files/JP_SoftEther_219.100.37.28_1264.2Mbps.ovpn) |
+| vpn497910382 | 175.129.117.170 | **<small>KddiCorporation</small>** | 2 | 912.1 | [📥](./ovpn_files/JP_KddiCorporation_175.129.117.170_912.1Mbps.ovpn) |
+| vpn908297011 | 118.16.100.156 | **<small>NTTCommunicationsCorporation</small>** | 8 | 749.9 | [📥](./ovpn_files/JP_NTTCommunicationsCorporation_118.16.100.156_749.9Mbps.ovpn) |
+| vpn844197835 | 14.133.56.200 | **<small>ChubuTelecommunicationsCompany,Inc.</small>** | 12 | 744.7 | [📥](./ovpn_files/JP_ChubuTelecommunicationsCompany,Inc._14.133.56.200_744.7Mbps.ovpn) |
+| vpn126961380 | 60.97.32.246 | **<small>SoftBankCorp.</small>** | 4 | 694.1 | [📥](./ovpn_files/JP_SoftBankCorp._60.97.32.246_694.1Mbps.ovpn) |
+| vpn844709358 | 60.34.127.120 | **<small>NTTCommunicationsCorporation</small>** | 7 | 647.1 | [📥](./ovpn_files/JP_NTTCommunicationsCorporation_60.34.127.120_647.1Mbps.ovpn) |
+| vpn530388298 | 121.92.139.227 | **<small>CableTelevisionTOYAMAInc.</small>** | 36 | 646.2 | [📥](./ovpn_files/JP_CableTelevisionTOYAMAInc._121.92.139.227_646.2Mbps.ovpn) |
+| vpn254588575 | 159.28.242.14 | **<small>SonyNetworkCommunicationsInc</small>** | 1 | 576.5 | [📥](./ovpn_files/JP_SonyNetworkCommunicationsInc_159.28.242.14_576.5Mbps.ovpn) |
+| vpn652870061 | 126.76.96.220 | **<small>SoftBankCorp.</small>** | 3 | 573.3 | [📥](./ovpn_files/JP_SoftBankCorp._126.76.96.220_573.3Mbps.ovpn) |
+| vpn629840519 | 220.57.96.201 | **<small>SoftBankCorp.</small>** | 4 | 546.0 | [📥](./ovpn_files/JP_SoftBankCorp._220.57.96.201_546.0Mbps.ovpn) |
+| vpn913900012 | 170.249.112.233 | **<small>JoetsuCableVision</small>** | 6 | 537.3 | [📥](./ovpn_files/JP_JoetsuCableVision_170.249.112.233_537.3Mbps.ovpn) |
+| public-vpn-219 | 219.100.37.206 | **<small>SoftEther</small>** | 21 | 527.9 | [📥](./ovpn_files/JP_SoftEther_219.100.37.206_527.9Mbps.ovpn) |
 | vpn699884073 | 126.8.199.141 | **<small>SoftBankCorp.</small>** | 4 | 480.7 | [📥](./ovpn_files/JP_SoftBankCorp._126.8.199.141_480.7Mbps.ovpn) |
-| vpn880633907 | 60.149.136.130 | **<small>SoftBankCorp.</small>** | 5 | 471.7 | [📥](./ovpn_files/JP_SoftBankCorp._60.149.136.130_471.7Mbps.ovpn) |
-| public-vpn-204 | 219.100.37.181 | **<small>SoftEther</small>** | 21 | 463.9 | [📥](./ovpn_files/JP_SoftEther_219.100.37.181_463.9Mbps.ovpn) |
-| vpn471339954 | 119.238.22.178 | **<small>NECBIGLOBELtd.</small>** | 10 | 446.8 | [📥](./ovpn_files/JP_NECBIGLOBELtd._119.238.22.178_446.8Mbps.ovpn) |
-| vpn761798642 | 182.21.131.140 | **<small>TOKAICommunicationsCorporation</small>** | 0 | 335.5 | [📥](./ovpn_files/JP_TOKAICommunicationsCorporation_182.21.131.140_335.5Mbps.ovpn) |
-| vpn883578965 | 126.54.176.242 | **<small>SoftBankCorp.</small>** | 11 | 333.7 | [📥](./ovpn_files/JP_SoftBankCorp._126.54.176.242_333.7Mbps.ovpn) |
+| vpn255986013 | 218.219.153.118 | **<small>EditNet,Incorporated</small>** | 6 | 459.5 | [📥](./ovpn_files/JP_EditNet,Incorporated_218.219.153.118_459.5Mbps.ovpn) |
+| vpn953698594 | 110.131.199.23 | **<small>JCOMCo.,Ltd.</small>** | 17 | 451.1 | [📥](./ovpn_files/JP_JCOMCo.,Ltd._110.131.199.23_451.1Mbps.ovpn) |
+| vpn857476380 | 126.79.124.253 | **<small>SoftBankCorp.</small>** | 2 | 426.3 | [📥](./ovpn_files/JP_SoftBankCorp._126.79.124.253_426.3Mbps.ovpn) |
+| vpn817586559 | 153.200.131.48 | **<small>NTTCommunicationsCorporation</small>** | 18 | 386.5 | [📥](./ovpn_files/JP_NTTCommunicationsCorporation_153.200.131.48_386.5Mbps.ovpn) |
+| public-vpn-257 | 219.100.37.208 | **<small>SoftEther</small>** | 25 | 385.8 | [📥](./ovpn_files/JP_SoftEther_219.100.37.208_385.8Mbps.ovpn) |
+| vpn863787247 | 180.196.229.114 | **<small>ChubuTelecommunicationsCompany,Inc.</small>** | 11 | 362.5 | [📥](./ovpn_files/JP_ChubuTelecommunicationsCompany,Inc._180.196.229.114_362.5Mbps.ovpn) |
+| vpn736461830 | 217.178.136.215 | **<small>InternetMultifeedCO.</small>** | 4 | 324.9 | [📥](./ovpn_files/JP_InternetMultifeedCO._217.178.136.215_324.9Mbps.ovpn) |
 | vpn523128030 | 153.194.200.162 | **<small>NTTCommunicationsCorporation</small>** | 7 | 320.8 | [📥](./ovpn_files/JP_NTTCommunicationsCorporation_153.194.200.162_320.8Mbps.ovpn) |
-| vpn947610909 | 126.235.87.202 | **<small>SoftBankCorp.</small>** | 15 | 303.5 | [📥](./ovpn_files/JP_SoftBankCorp._126.235.87.202_303.5Mbps.ovpn) |
-| public-vpn-42 | 219.100.37.6 | **<small>SoftEther</small>** | 9 | 293.2 | [📥](./ovpn_files/JP_SoftEther_219.100.37.6_293.2Mbps.ovpn) |
+| public-vpn-64 | 219.100.37.23 | **<small>SoftEther</small>** | 14 | 287.5 | [📥](./ovpn_files/JP_SoftEther_219.100.37.23_287.5Mbps.ovpn) |
 | public-vpn-187 | 219.100.37.179 | **<small>SoftEther</small>** | 25 | 282.7 | [📥](./ovpn_files/JP_SoftEther_219.100.37.179_282.7Mbps.ovpn) |
+| public-vpn-129 | 219.100.37.103 | **<small>SoftEther</small>** | 16 | 282.0 | [📥](./ovpn_files/JP_SoftEther_219.100.37.103_282.0Mbps.ovpn) |
 | public-vpn-206 | 219.100.37.165 | **<small>SoftEther</small>** | 8 | 273.6 | [📥](./ovpn_files/JP_SoftEther_219.100.37.165_273.6Mbps.ovpn) |
-| public-vpn-67 | 219.100.37.84 | **<small>SoftEther</small>** | 18 | 265.2 | [📥](./ovpn_files/JP_SoftEther_219.100.37.84_265.2Mbps.ovpn) |
-| public-vpn-211 | 219.100.37.168 | **<small>SoftEther</small>** | 8 | 242.7 | [📥](./ovpn_files/JP_SoftEther_219.100.37.168_242.7Mbps.ovpn) |
-| vpn127203103 | 58.70.120.185 | **<small>OPTAGEInc.</small>** | 4 | 236.3 | [📥](./ovpn_files/JP_OPTAGEInc._58.70.120.185_236.3Mbps.ovpn) |
-| public-vpn-163 | 219.100.37.126 | **<small>SoftEther</small>** | 11 | 230.8 | [📥](./ovpn_files/JP_SoftEther_219.100.37.126_230.8Mbps.ovpn) |
-| vpn346156339 | 49.156.249.36 | **<small>QTnet,Inc.</small>** | 16 | 226.9 | [📥](./ovpn_files/JP_QTnet,Inc._49.156.249.36_226.9Mbps.ovpn) |
-| public-vpn-68 | 219.100.37.17 | **<small>SoftEther</small>** | 26 | 221.6 | [📥](./ovpn_files/JP_SoftEther_219.100.37.17_221.6Mbps.ovpn) |
-| public-vpn-202 | 219.100.37.197 | **<small>SoftEther</small>** | 19 | 216.6 | [📥](./ovpn_files/JP_SoftEther_219.100.37.197_216.6Mbps.ovpn) |
+| vpn703005952 | 175.177.195.207 | **<small>itscommunicationsInc.</small>** | 12 | 264.6 | [📥](./ovpn_files/JP_itscommunicationsInc._175.177.195.207_264.6Mbps.ovpn) |
+| public-vpn-156 | 219.100.37.95 | **<small>SoftEther</small>** | 18 | 246.5 | [📥](./ovpn_files/JP_SoftEther_219.100.37.95_246.5Mbps.ovpn) |
+| vpn559430764 | 126.219.117.54 | **<small>SoftBankCorp.</small>** | 14 | 231.8 | [📥](./ovpn_files/JP_SoftBankCorp._126.219.117.54_231.8Mbps.ovpn) |
+| public-vpn-100 | 219.100.37.57 | **<small>SoftEther</small>** | 16 | 215.2 | [📥](./ovpn_files/JP_SoftEther_219.100.37.57_215.2Mbps.ovpn) |
 | public-vpn-139 | 219.100.37.105 | **<small>SoftEther</small>** | 23 | 213.1 | [📥](./ovpn_files/JP_SoftEther_219.100.37.105_213.1Mbps.ovpn) |
-| public-vpn-158 | 219.100.37.123 | **<small>SoftEther</small>** | 19 | 194.5 | [📥](./ovpn_files/JP_SoftEther_219.100.37.123_194.5Mbps.ovpn) |
-| public-vpn-154 | 219.100.37.121 | **<small>SoftEther</small>** | 15 | 193.8 | [📥](./ovpn_files/JP_SoftEther_219.100.37.121_193.8Mbps.ovpn) |
-| public-vpn-57 | 219.100.37.21 | **<small>SoftEther</small>** | 20 | 193.0 | [📥](./ovpn_files/JP_SoftEther_219.100.37.21_193.0Mbps.ovpn) |
-| vpn159419172 | 106.178.125.124 | **<small>KddiCorporation</small>** | 6 | 178.2 | [📥](./ovpn_files/JP_KddiCorporation_106.178.125.124_178.2Mbps.ovpn) |
-| public-vpn-236 | 219.100.37.191 | **<small>SoftEther</small>** | 15 | 174.6 | [📥](./ovpn_files/JP_SoftEther_219.100.37.191_174.6Mbps.ovpn) |
-| vpn460838586 | 220.208.142.63 | **<small>CORALNET</small>** | 14 | 160.2 | [📥](./ovpn_files/JP_CORALNET_220.208.142.63_160.2Mbps.ovpn) |
-| vpn384405505 | 182.164.123.96 | **<small>OPTAGEInc.</small>** | 3 | 120.8 | [📥](./ovpn_files/JP_OPTAGEInc._182.164.123.96_120.8Mbps.ovpn) |
-| vpn787695267 | 60.93.213.230 | **<small>SoftBankCorp.</small>** | 5 | 95.0 | [📥](./ovpn_files/JP_SoftBankCorp._60.93.213.230_95.0Mbps.ovpn) |
-| vpn323969516 | 126.60.212.141 | **<small>SoftBankCorp.</small>** | 6 | 92.6 | [📥](./ovpn_files/JP_SoftBankCorp._126.60.212.141_92.6Mbps.ovpn) |
-| vpn161438706 | 222.2.27.194 | **<small>DION(KDDICORPORATION)</small>** | 6 | 87.1 | [📥](./ovpn_files/JP_DION(KDDICORPORATION)_222.2.27.194_87.1Mbps.ovpn) |
-| vpn151286027 | 210.194.200.52 | **<small>JCOMCo.,Ltd.</small>** | 75 | 84.5 | [📥](./ovpn_files/JP_JCOMCo.,Ltd._210.194.200.52_84.5Mbps.ovpn) |
-| vpn430037582 | 175.129.226.5 | **<small>KddiCorporation</small>** | 9 | 77.9 | [📥](./ovpn_files/JP_KddiCorporation_175.129.226.5_77.9Mbps.ovpn) |
-| vpn410164537 | 175.28.145.93 | **<small>QTnet,Inc.</small>** | 21 | 72.1 | [📥](./ovpn_files/JP_QTnet,Inc._175.28.145.93_72.1Mbps.ovpn) |
-| vpn844508033 | 60.126.217.205 | **<small>SoftBankCorp.</small>** | 7 | 60.1 | [📥](./ovpn_files/JP_SoftBankCorp._60.126.217.205_60.1Mbps.ovpn) |
-| vpn998750376 | 118.86.3.220 | **<small>JCOM</small>** | 23 | 40.5 | [📥](./ovpn_files/JP_JCOM_118.86.3.220_40.5Mbps.ovpn) |
-| vpn564633118 | 111.168.189.45 | **<small>BIGLOBEInc.</small>** | 26 | 13.2 | [📥](./ovpn_files/JP_BIGLOBEInc._111.168.189.45_13.2Mbps.ovpn) |
+| public-vpn-135 | 219.100.37.93 | **<small>SoftEther</small>** | 18 | 211.8 | [📥](./ovpn_files/JP_SoftEther_219.100.37.93_211.8Mbps.ovpn) |
+| public-vpn-51 | 219.100.37.13 | **<small>SoftEther</small>** | 28 | 204.7 | [📥](./ovpn_files/JP_SoftEther_219.100.37.13_204.7Mbps.ovpn) |
+| public-vpn-150 | 219.100.37.108 | **<small>SoftEther</small>** | 9 | 196.7 | [📥](./ovpn_files/JP_SoftEther_219.100.37.108_196.7Mbps.ovpn) |
+| vpn638897160 | 150.31.149.158 | **<small>InternetInitiativeJapanInc.</small>** | 7 | 185.6 | [📥](./ovpn_files/JP_InternetInitiativeJapanInc._150.31.149.158_185.6Mbps.ovpn) |
+| public-vpn-253 | 219.100.37.207 | **<small>SoftEther</small>** | 11 | 185.0 | [📥](./ovpn_files/JP_SoftEther_219.100.37.207_185.0Mbps.ovpn) |
+| public-vpn-53 | 219.100.37.225 | **<small>SoftEther</small>** | 24 | 177.9 | [📥](./ovpn_files/JP_SoftEther_219.100.37.225_177.9Mbps.ovpn) |
+| vpn952955676 | 42.146.26.235 | **<small>JCOMCo.,Ltd.</small>** | 18 | 167.3 | [📥](./ovpn_files/JP_JCOMCo.,Ltd._42.146.26.235_167.3Mbps.ovpn) |
+| vpn322232405 | 222.228.200.252 | **<small>ARTERIANetworksCorporation</small>** | 3 | 164.7 | [📥](./ovpn_files/JP_ARTERIANetworksCorporation_222.228.200.252_164.7Mbps.ovpn) |
+| vpn175155645 | 27.137.237.58 | **<small>JCOMCo.,Ltd.</small>** | 20 | 163.4 | [📥](./ovpn_files/JP_JCOMCo.,Ltd._27.137.237.58_163.4Mbps.ovpn) |
+| vpn366166401 | 159.28.242.14 | **<small>SonyNetworkCommunicationsInc</small>** | 7 | 136.1 | [📥](./ovpn_files/JP_SonyNetworkCommunicationsInc_159.28.242.14_136.1Mbps.ovpn) |
+| vpn201165799 | 175.41.115.139 | **<small>JCOM</small>** | 19 | 120.7 | [📥](./ovpn_files/JP_JCOM_175.41.115.139_120.7Mbps.ovpn) |
+| vpn193195706 | 153.166.94.174 | **<small>NTTCommunicationsCorporation</small>** | 10 | 119.7 | [📥](./ovpn_files/JP_NTTCommunicationsCorporation_153.166.94.174_119.7Mbps.ovpn) |
+| vpn401180266 | 116.94.25.94 | **<small>QTnet,Inc.</small>** | 19 | 95.5 | [📥](./ovpn_files/JP_QTnet,Inc._116.94.25.94_95.5Mbps.ovpn) |
+| vpn344602886 | 113.153.99.237 | **<small>DION(KDDICORPORATION)</small>** | 7 | 75.8 | [📥](./ovpn_files/JP_DION(KDDICORPORATION)_113.153.99.237_75.8Mbps.ovpn) |
+| vpn225306834 | 119.229.69.82 | **<small>OPTAGEInc.</small>** | 7 | 63.7 | [📥](./ovpn_files/JP_OPTAGEInc._119.229.69.82_63.7Mbps.ovpn) |
+| vpn555510505 | 60.95.184.243 | **<small>SoftBankCorp.</small>** | 13 | 54.3 | [📥](./ovpn_files/JP_SoftBankCorp._60.95.184.243_54.3Mbps.ovpn) |
+| vpn624472654 | 220.147.184.189 | **<small>ARTERIANetworksCorporation</small>** | 78 | 28.4 | [📥](./ovpn_files/JP_ARTERIANetworksCorporation_220.147.184.189_28.4Mbps.ovpn) |
 | 2133vpngw | 103.160.48.78 | **<small>AyaoTakata</small>** | 22 | 0.0 | [📥](./ovpn_files/JP_AyaoTakata_103.160.48.78_0.0Mbps.ovpn) |
-| vpn353329268 | 180.19.240.86 | **<small>NTTCommunicationsCorporation</small>** | 0 | 0.0 | [📥](./ovpn_files/JP_NTTCommunicationsCorporation_180.19.240.86_0.0Mbps.ovpn) |
 
 *Auto-updated by GitHub Actions*
